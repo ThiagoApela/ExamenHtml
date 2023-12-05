@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <title>Procesamiento de Reservas</title>
+</head>
+<body>
+
+    <p>
+        <a href="hotel.html"> Regresar al Inicio </a>
+    </p>
+
+    <section class="reservation-section">
+        <h2>Procesamiento de Reservas</h2>
+        
+        <div class="reservation-form">
+            <h3>Cliente Individual</h3>
+            <form action="formulario.html" method="post">
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="fecha_llegada">Fecha de Llegada:</label>
+                    <input type="date" id="fecha_llegada" name="fecha_llegada" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="num_tarjeta">Número de Tarjeta de Crédito:</label>
+                    <input type="text" id="num_tarjeta" name="num_tarjeta" required>
+                </div>
+                
+                <input type="submit" value="Reservar" class="submit-button">
+            </form>
+        </div>
+        
+        <div class="reservation-form">
+            <h3>Cliente de Empresa</h3>
+            <form action="procesar_reserva_empresa.php" method="post">
+                <div class="form-group">
+                    <label for="nombre_empresa">Nombre de la Empresa:</label>
+                    <input type="text" id="nombre_empresa" name="nombre_empresa" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="fecha_llegada_empresa">Fecha de Llegada:</label>
+                    <input type="date" id="fecha_llegada_empresa" name="fecha_llegada_empresa" required>
+                </div>
+                
+                <input type="submit" value="Reservar" class="submit-button">
+            </form>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,33 @@
+.factura {
+    padding: 20px;
+    background-color: #ec0000;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+
+  h4 {
+    color: #ffffff;
+  }
+  
+  .lista-factura {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .lista-factura li {
+    margin-bottom: 10px;
+  }
+  
+  .lista-factura li strong {
+    font-weight: bold;
+  }
+  
+  .lista-factura li span {
+    margin-left: 10px;
+  }
+  
+  .total {
+    margin-top: 15px;
+    font-weight: bold;
+  }

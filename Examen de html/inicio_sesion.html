@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="gestion_usuarios.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <p>
+        <a href="hotel.html"> Regresar al Inicio </a>
+
+    </p>
+
+    <p>
+        <a href="crear_cuenta.html"> Registrarse </a>
+    </p>
+
+    <section class="signup-section">
+        <h5>Inicar Sesion</h5>
+                <form action="inicio_sesion.html" method="post">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                    
+                    <label for="tipo_usuario">Tipo de Usuario:</label>
+                    <select id="tipo_usuario" name="tipo_usuario">
+                        <option value="empleado">Empleado de Mostrador</option>
+                        <option value="gerente">Gerente</option>
+                        <option value="administrador">Administrador</option>
+                    </select>
+                    
+                    <label for="nueva_contrasena">Contraseña:</label>
+                    <input type="password" id="nueva_contrasena" name="nueva_contrasena" required>
+                    
+                    <input type="submit" value="Crear Cuenta">
+                </form>
+</body>
+</html>

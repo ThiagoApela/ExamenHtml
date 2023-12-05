@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="reserva_habitacion.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <p>
+        <a href="hotel.html"> Regresar al Inicio </a>
+    </p>
+
+    <section class="reserva" id="reserva">
+                    <h3>Reserva de Habitación las BAHAMAS</h3>
+                    <form action="reserva2.html" method="post">
+                        <label for="tipo_habitacion">Tipo de Habitación:</label>
+                        <select id="tipo_habitacion" name="tipo_habitacion">
+                            <option value="habitacion_sencilla">Habitación Sencilla</option>
+                            <option value="habitacion_doble">Habitación Doble</option>
+                            <option value="suite">Suite</option>
+                        </select>
+
+                        <label for="tipo_habitacion">Tipo de Cliente</label>
+                        <select id="tipo_habitacion" name="tipo_habitacion">
+                            <option value="habitacion_doble">Persona</option>
+                            <option value="suite">Empresa</option>
+                        </select>
+                        <br><br>
+                        
+                        <label>
+                            <input type="checkbox" name="habitacion_no_fumador">
+                            Habitación para no fumadores
+                            <input type="checkbox" name="habitacion_no_fumador">
+                            Habitacion para fumadores
+                        </label>
+                        <br><br>
+
+                        <label for="tipo_pension">Tipo de Pensión:</label>
+                        <input type="radio" id="pension_dormir" name="tipo_pension" value="dormir">
+                        <label for="pension_dormir">Dormir Únicamente</label>
+                        
+                        <input type="radio" id="pension_media" name="tipo_pension" value="media_pension">
+                        <label for="pension_media">Media Pensión</label>
+                        
+                        <input type="radio" id="pension_completa" name="tipo_pension" value="pension_completa">
+                        <label for="pension_completa">Pensión Completa</label>
+                        <br><br>
+                        
+                        <input type="submit" value="Reservar">
+                    </form>
+                </section>
+
+</body>
+</html>

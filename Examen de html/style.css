@@ -1,0 +1,256 @@
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+
+body {
+    background-color: #ffffff;
+    color: red;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+nav {
+    background-color:rgb(0, 255, 242);
+    color: #ffffff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav h1 {
+    margin: 0;
+}
+
+.navegacion {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+
+.navegacion li {
+    margin: 0 1em;
+}
+
+
+.herue {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    padding: 4em 0;
+}
+
+.herue-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.bio {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 1em;
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bio-titulo {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.bio-texto {
+    font-size: 1.2em;
+}
+
+
+.proyectos {
+    background-color: #fff;
+    padding: 4em 0;
+}
+
+.titulo-de-proyecto {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.contenedor-de-proyectos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.tarjetas-de-proyectos {
+    flex-basis: calc(33.333% - 1em);
+    margin-bottom: 2em;
+}
+
+.foto-de-proyecto {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.titulo-de-proyecto {
+    margin: 1em 0;
+}
+
+.detalles-de-proyecto {
+    font-size: 1em;
+    color: red;
+    line-height: 1.4;
+}
+
+.enlace-de-proyecto {
+    display: block;
+    text-align: center;
+    padding: 0.5em;
+    background-color: red;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.enlace-de-proyecto:hover {
+    background-color: red;
+}
+
+
+
+
+.Contactos {
+    background-color: rgb(0, 251, 255);
+    color: #fff;
+    text-align: center;
+    padding: 4em 0;
+}
+
+.form-contactos {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.control-formulario {
+    margin-bottom: 1.5em;
+}
+
+.label-formulario {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+.input-fiel {
+    width: 100%;
+    padding: 0.5em;
+    font-size: 1em;
+}
+
+.submit-b {
+    background-color: #fff;
+    color:red;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+}
+
+.submit-b:hover {
+    background-color: #eee;
+}
+
+
+.sociales {
+    text-align: center;
+    margin: 2em 0;
+}
+
+.social {
+    width: 30px;
+    height: auto;
+    margin: 0 0.5em;
+}
+
+
+footer {
+    background-color: rgb(0, 247, 255);
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.copy {
+    margin: 0.5em 0;
+}
+
+
+@media screen and (max-width: 768px) {
+    .contenedor-de-proyectos {
+        flex-direction: column;
+    }
+
+    .tarjetas-de-proyectos {
+        flex-basis: 100%;
+    }
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: rgb(0, 255, 238);
+    }
+
+}    
+.reservation-section {
+        width: 60%;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #00ffff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .reservation-form {
+        margin-bottom: 20px;
+    }
+    
+    .form-group {
+        margin-bottom: 15px;
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+    
+    input[type="text"],
+    input[type="date"],
+    input[type="submit"] {
+        width: calc(100% - 10px);
+        padding: 8px;
+        margin-bottom: 10px;
+        border-radius: 3px;
+        border: 1px solid #ff0000;
+    }
+    
+    .submit-button {
+        background-color: #000000;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+    }
+    
+    .submit-button:hover {
+        background-color: rgb(28, 3, 255);
+    }

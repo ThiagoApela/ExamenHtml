@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #00fffb;
+}
+
+.reserva {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgb(255, 0, 0);
+}
+
+.formulario {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="submit"],
+select {
+  width: calc(100% - 10px);
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+.boton {
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.boton:hover {
+  background-color: #0056b3;
+}
+
+.radio-group input[type="radio"] {
+  margin-right: 5px;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
